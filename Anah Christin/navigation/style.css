@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+}
+/* Horizontal inline navbar */
+/* 
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline ;
+} */
+
+/* floating horizontal navbar */
+/* ul{
+    list-style-type: none;
+    float:left ;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+} */

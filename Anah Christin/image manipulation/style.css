@@ -1,0 +1,59 @@
+h1{
+    color: rgb(233, 232, 233);
+}
+body{
+    background-color: brown;
+}
+
+#img1{
+    border-radius:10px;
+}
+
+#img2{
+    border-radius: 50%;
+}
+
+#img3{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 5px;
+}
+#img4{
+    border: 3px solid grey;
+    border-radius: 4px;
+    padding: 5px;
+}
+#img4:hover{
+    box-shadow: 0 0 5px 3px rgba(238, 255, 0, 0.816)
+}
+#img5{
+    /* border: 3px solid grey; */
+    border-radius: 4px;
+    padding: 5px;
+    /* max-width: 100%; */
+    /* height: auto; */
+}
+#card:hover{
+    box-shadow: 0 0 10px 5px rgba(238, 255, 0, 0.816)
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid black;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card a{
+    max-width: inherit;
+}
+.text{
+    text-align: center;
+    padding: 10px;
+}

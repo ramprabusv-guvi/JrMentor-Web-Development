@@ -1,0 +1,28 @@
+p{
+    border: 5px solid red;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+#p1{
+    overflow: visible;
+    color:chartreuse;
+}
+
+#p2{
+    overflow: hidden;
+    color:rgb(255, 255, 0)
+    /* 0-255 */
+}
+
+#p3{
+    overflow: scroll;
+    color: #f00df8;
+    /* 0-9 A-F */
+}
+
+#p4{
+    overflow: auto;
+    /* color: hsl(hue, saturation, lightness); */
+    color: rgba(0, 47, 255, 0.782);
+}

@@ -1,0 +1,64 @@
+#outerShell{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(0, 30, 69);
+    margin: auto;
+    box-shadow: 10px 10px 10px #f7f78e;
+    border-radius: 10px;
+}
+.maintext{
+    color: aliceblue;
+    font-size: 10px;
+    padding-bottom: 10px;
+
+}
+#stars{
+    width: 400px;
+    /* margin-left: 50px; */
+    z-index: 1;
+}
+#unicorn{
+    width: 300px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 2;
+    top:-600px;
+}
+#info{
+    position: relative;
+    top:-600px;
+    background-color: #ea7500d9;
+    border-radius: 100px;
+    border: dotted 2px #ff0000;
+    box-shadow: 2px 2px 10px;
+    width: 250px;
+    margin-left: 75px;
+    height: 320px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin-top: 50px;
+    padding: 0px;
+    font-family: monospace;
+}
+#name{
+    font-size: 25px;
+    color: #07006b;
+    text-shadow: 5px 2px 10px #ffffffd8 ;
+}
+#date{
+color: #0d005e;
+font-size: 20px;
+padding-bottom: 5px;
+}
+
+#place{
+    color: #6b0000;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+#join{
+    padding-bottom: 20px;
+    color: #6b0000;
+}
